@@ -1,0 +1,68 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #212529;
+}
+
+/* Contenedor principal */
+.main-content {
+    background: #ffffff; /* Fondo blanco para contenido */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border-radius: 8px;
+    padding: 30px;
+}
+
+/* Título */
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+/* Línea Divisora */
+.divider {
+    border: 0;
+    height: 2px;
+    background: #007bff; /* Azul Bootstrap */
+    margin: 10px 0 20px 0;
+}
+
+/* Formulario */
+.form-style .form-label {
+    font-weight: bold;
+    color: #495057; /* Texto oscuro */
+}
+
+.form-style .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-style .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Botón */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Respuesta para pantallas pequeñas */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
